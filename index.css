@@ -5,13 +5,43 @@
 body{
 	background-color: #001f3f;
 }
+nav{
+	display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin: 1%;
+    padding-top: 5%;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Fjalla One', sans-serif;
+}
 
+li {
+    float: left;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100px;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
 
 
 h1{
 	font-size:5vmax;
 	text-align: center;
-    font-family: 'Bangers', cursive;
+    font-family: 'Fjalla One', sans-serif;
 }
 #facepage{
 	background-image: url('background.jpg');
@@ -49,11 +79,11 @@ h1{
 #description-box{
 	font-family: 'Libre Baskerville', serif;
 	color: black;
-	
 	font-size:30pt;
 	position: absolute;
 	top:275px;
 	left: 45%;
+	text-shadow: 2px 2px white;
 	
 
 }
@@ -67,4 +97,124 @@ h1{
     background-size: cover;
     background-color: white;
 
+}
+#projects{
+	width: 100%;
+	height: 100%;
+	background-color: tan;
+
+}
+#contact{
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+
+
+}
+#aboutme-text{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size:20pt;
+
+}
+#language_icons{
+	margin-left: 30%;
+}
+.devicon-html5-plain-wordmark{
+	font-size: 2rem;
+}
+.devicon-javascript-plain{
+	font-size: 5rem;
+}
+.devicon-heroku-plain-wordmark{
+	font-size: 5rem;
+}
+.devicon-rails-plain-wordmark{
+	font-size: 5rem;
+
+}
+.devicon-ruby-plain{
+	font-size: 5rem;
+}
+.devicon-sass-original{
+	font-size: 5rem;
+}
+.devicon-slack-plain{
+	font-size: 5rem;
+}
+.devicon-ubuntu-plain-wordmark{
+	font-size: 5rem;
+}
+.devicon-git-plain-wordmark{
+	font-size: 5rem;
+}
+.devicon-css3-plain-wordmark{
+	font-size: 5rem;
+}
+
+#icons{
+	margin-left: 48vmax;
+	margin-right: auto;
+}
+#proj_title{
+	color:#FFE4B5;
+	font-family: 'Fjalla One', sans-serif;
+}
+#projects{
+	background-color:#696969;
+}
+.projects{
+	height: 400px;
+	width: 500px;
+	display: inline-block;
+	margin-top:5%;
+	margin-left: 5%; 
+	margin-bottom: 5%;
+	background-color: #FFE4B5;
+}
+#proj-1{
+	background-image: url('hangman.png');
+	background-position: center;
+	background-size: 100% 100%;
+
+}
+#proj-2{
+	background-image: url('hexclock (1).png');
+	background-position: center;
+	background-size: 100% 100%;
+}
+#proj-3{
+	background-image: url('jukebox.png');
+	background-position: center;
+	background-size: 100% 100%;
+	
+}
+#proj-4{
+	background-image: url('towers-defense.png');
+	background-position: center;
+	background-size: 100% 100%;
+	
+}
+#proj-5{
+	background-image: url('theblogging.png');
+	background-position: center;
+	background-size: 100% 100%;
+
+}
+#cont_title{
+	color:#FFE4B5; 
+	font-family: 'Fjalla One', sans-serif;
+}
+#contact{
+	background-color: #708090;
+}
+.devicon-html5-plain-wordmark{
+	font-size: 10rem;
 }
