@@ -53,13 +53,13 @@ h1{
 #main-photo{
 	height: 400px;
 	width: 400px;
-	border-radius: 50%;
+	border-radius: 60%;
 	background-image: url('profile.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	position: absolute;
 	top:100px;
-	left: 70%;
+	left: 67vmax;
 	opacity: .1%;
 	box-shadow: 5px 5px 5px 5px black;
 
@@ -71,7 +71,7 @@ h1{
 	font-size:40pt;
 	position: absolute;
 	top:200px;
-	left: 40%;
+	left: 30vmax;
 	border-bottom: 3px solid black
 
 
@@ -82,7 +82,7 @@ h1{
 	font-size:30pt;
 	position: absolute;
 	top:275px;
-	left: 45%;
+	left: 36vmax;
 	text-shadow: 2px 2px white;
 	
 
@@ -125,7 +125,8 @@ h1{
 
 }
 #language_icons{
-	margin-left: 30%;
+	margin-left: 20vmax;
+	margin-top:6vmax;
 }
 .devicon-html5-plain-wordmark{
 	font-size: 2rem;
@@ -160,7 +161,7 @@ h1{
 }
 
 #icons{
-	margin-left: 48vmax;
+	margin-left: 42vmax;
 	margin-right: auto;
 }
 #proj_title{
@@ -175,7 +176,7 @@ h1{
 	width: 500px;
 	display: inline-block;
 	margin-top:5%;
-	margin-left: 5%; 
+	margin-left: 7vmax; 
 	margin-bottom: 5%;
 	background-color: #FFE4B5;
 }
@@ -216,5 +217,5 @@ h1{
 	background-color: #708090;
 }
 .devicon-html5-plain-wordmark{
-	font-size: 10rem;
+	font-size: 5rem;
 }
