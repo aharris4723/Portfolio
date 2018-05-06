@@ -1,16 +1,17 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 }
 body{
 	background-color: #001f3f;
+
 }
 nav{
 	display: inline-block;
 }
 ul {
     list-style-type: none;
-    margin: 1%;
+    margin: .5vmax;
     padding-top: 5%;
     overflow: hidden;
     background-color: #333;
@@ -39,15 +40,17 @@ li a:hover {
 
 
 h1{
-	font-size:5vmax;
+	font-size:3vmax;
 	text-align: center;
     font-family: 'Fjalla One', sans-serif;
 }
 #facepage{
-	background-image: url('background.jpg');
+	/*background-image: url('bkg2.jpg');*/
 	width: 100%;
 	height: 600px;
-	background-position:: cover;
+	background-position: cover;
+	border: 1px solid white;
+	
 
 }
 #main-photo{
@@ -57,35 +60,49 @@ h1{
 	background-image: url('profile.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	position: absolute;
-	top:100px;
-	left: 67vmax;
+	/*position: absolute;
+	top:5vmax;
+	left: 67vmax;*/
 	opacity: .1%;
 	box-shadow: 5px 5px 5px 5px black;
+	margin-top: 4vmax;
+	margin-left: 70vmax;
 
 }
 #name{
 	font-family: 'Libre Baskerville', serif;
-	color: white;
-	text-shadow:4px 4px black;
+	color: #B93A32;
+	text-shadow:2px 2px black;
 	font-size:40pt;
-	position: absolute;
-	top:200px;
-	left: 30vmax;
-	border-bottom: 3px solid black
+	/*margin-top: 2px;
+	margin-left: 38vmax;*/
+	border-bottom: 3px solid black;
+    position: absolute;
+	top:13vmax;
+	left: 40vmax;
 
 
 }
 #description-box{
 	font-family: 'Libre Baskerville', serif;
-	color: black;
+	color: white;
 	font-size:30pt;
+	/*margin-top: 5vmax;
+	margin-left:38vmax;*/
+	text-shadow: 2px 2px #034F84;
 	position: absolute;
-	top:275px;
-	left: 36vmax;
-	text-shadow: 2px 2px white;
+	top:17vmax;
+	left: 44vmax;
 	
 
+}
+#icons{
+	position: absolute;
+	top: 20vmax;
+	left: 48vmax;
+	
+	/*margin-left: 41vmax;
+	margin-right: auto;*/
 }
 
 #aboutme{
@@ -129,41 +146,38 @@ h1{
 	margin-top:6vmax;
 }
 .devicon-html5-plain-wordmark{
-	font-size: 2rem;
+	font-size: 2vmax;
 }
 .devicon-javascript-plain{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-heroku-plain-wordmark{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-rails-plain-wordmark{
-	font-size: 5rem;
+	font-size:5vmax;
 
 }
 .devicon-ruby-plain{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-sass-original{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-slack-plain{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-ubuntu-plain-wordmark{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-git-plain-wordmark{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 .devicon-css3-plain-wordmark{
-	font-size: 5rem;
+	font-size: 5vmax;
 }
 
-#icons{
-	margin-left: 42vmax;
-	margin-right: auto;
-}
+
 #proj_title{
 	color:#FFE4B5;
 	font-family: 'Fjalla One', sans-serif;
@@ -176,7 +190,7 @@ h1{
 	width: 500px;
 	display: inline-block;
 	margin-top:5%;
-	margin-left: 7vmax; 
+	margin-left: 17vmax; 
 	margin-bottom: 5%;
 	background-color: #FFE4B5;
 }
