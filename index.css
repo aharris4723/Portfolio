@@ -4,6 +4,7 @@
 }
 body{
 	background-color: #001f3f;
+	width: 100%;
 
 }
 nav{
@@ -47,30 +48,36 @@ h1{
 #facepage{
 	background-image: url('bkg.jpg');
 	width: 100%;
-	height: 100%;
-	min-height: 600px;
+	height: 600px;
+	/*min-height: 600px;*/
 	background-position: cover;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	
 
 }
+.facepage{
+	/*display: inline-block;
+	margin-top:5%;
+	margin-left: 14vmax; 
+	margin-right: 1px auto;
+	margin-bottom: 5%;*/
+}
 #main-photo{
-	height: 400px;
-	width: 400px;
+	height: 23vmax;
+	width: 23vmax;
+    display: inline-block;
 	border-radius: 60%;
 	background-image: url('profile.jpg');
-	background-position: center;
+	background-position: cover;
 	background-repeat: no-repeat;
-	position: relative;
-	/*display: inline;*/
-	top:5vmax;
-	left: 10vmax;
+	background-size: 100%;
 	min-width: 8vmax;
 	opacity: .1%;
 	box-shadow: 5px 5px 5px 5px black;
-	/*margin-top: 4vmax;
-	margin-left: 70vmax;*/
-	padding: 1px auto;
+
+	margin-top: 4vmax;
+	margin-left: 14vmax;
+	/*padding: 1px auto;*/
 	/*margin: 1px auto;*/
 
 }
@@ -79,13 +86,14 @@ h1{
 	color: #B93A32;
 	text-shadow:2px 2px black;
 	font-size:4vmax;
-	margin: auto;
+	/*margin: auto;*/
 	/*margin-left: 38vmax;*/
 	border-bottom: 3px solid black;
-    position: absolute;
+	border-width: 10px;
+    /*position: absolute;
 	top: 12vmax;
-	left: 40vmax;
-	padding:auto;
+	left: 40vmax;*/
+	/*padding:auto;*/
 
 
 }
@@ -96,46 +104,53 @@ h1{
 	/*margin-top: 5vmax;
 	margin-left:38vmax;*/
 	text-shadow: 2px 2px #034F84;
-	position: absolute;
+	/*position: absolute;
 	top:17vmax;
-	left: 45vmax;
-	margin: auto;
-	padding:auto;
+	left: 44vmax;*/
+	/*margin: auto;
+	padding:auto;*/
+
 
 }
 #icons{
-	position: absolute;
-	size: 3vmax;
+	/*position: absolute;
 	top: 20vmax;
-	left: 48vmax;
-	margin: auto;
-	padding:auto;
+	left: 48vmax;*/
+	/*margin: auto;
+	padding:auto;*/
 	/*margin-left: 41vmax;
 	margin-right: auto;*/
 }
 #name-wrapper{
-	height: 100%;
-	width: 100%;
-	padding:auto;
-	margin: 1px;
-	position: relative;
-
+	height: 40vmax;
+	width: 40vmax;
+	display: inline-block;
+	/*position: absolute;
+	top: 12vmax;
+	left: 40vmax;*/
+	font-size-adjust: 0.4;
+    /*background-color: pink;*/
+    /*border: 1px solid white;*/
+   /*display: inline-block;*/
+    margin-left: 1vmax;
+    
+   
 }
 
 #aboutme{
 	width: 100%;
 	height: 100%;
-	background-attachment: fixed;
+	/*background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     background-color: white;
 
 }
 #projects{
 	width: 100%;
 	height: 100%;
-	background-color: tan;
+    background-color: tan;
 
 }
 #contact{
@@ -202,13 +217,16 @@ h1{
 }
 #projects{
 	background-color:#696969;
+
+
 }
 .projects{
-	height: 400px;
-	width: 500px;
+	height: 20vmax;
+	width: 30vmax;
 	display: inline-block;
 	margin-top:5%;
-	margin-left: 17vmax; 
+	margin-left: 14vmax; 
+	margin-right: 1px auto;
 	margin-bottom: 5%;
 	background-color: #FFE4B5;
 }
