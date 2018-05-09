@@ -70,42 +70,56 @@ h1{
 	box-shadow: 5px 5px 5px 5px black;
 	/*margin-top: 4vmax;
 	margin-left: 70vmax;*/
+	padding: 1px auto;
+	/*margin: 1px auto;*/
 
 }
 #name{
 	font-family: 'Libre Baskerville', serif;
 	color: #B93A32;
 	text-shadow:2px 2px black;
-	font-size:40pt;
-	/*margin-top: 2px;
-	margin-left: 38vmax;*/
+	font-size:4vmax;
+	margin: auto;
+	/*margin-left: 38vmax;*/
 	border-bottom: 3px solid black;
     position: absolute;
-	top: 13vmax;
+	top: 12vmax;
 	left: 40vmax;
+	padding:auto;
 
 
 }
 #description-box{
 	font-family: 'Libre Baskerville', serif;
 	color: white;
-	font-size:30pt;
+	font-size:3vmax;
 	/*margin-top: 5vmax;
 	margin-left:38vmax;*/
 	text-shadow: 2px 2px #034F84;
 	position: absolute;
 	top:17vmax;
-	left: 44vmax;
-	
+	left: 45vmax;
+	margin: auto;
+	padding:auto;
 
 }
 #icons{
 	position: absolute;
+	size: 3vmax;
 	top: 20vmax;
 	left: 48vmax;
-	
+	margin: auto;
+	padding:auto;
 	/*margin-left: 41vmax;
 	margin-right: auto;*/
+}
+#name-wrapper{
+	height: 100%;
+	width: 100%;
+	padding:auto;
+	margin: 1px;
+	position: relative;
+
 }
 
 #aboutme{
@@ -146,6 +160,7 @@ h1{
 }
 #language_icons{
 	margin-left: 20vmax;
+
 	margin-top:7vmax;
 }
 .devicon-html5-plain-wordmark{
