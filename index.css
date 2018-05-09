@@ -60,13 +60,13 @@ h1{
 	background-image: url('profile.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	/*position: absolute;
+	position: absolute;
 	top:5vmax;
-	left: 67vmax;*/
+	left: 67vmax;
 	opacity: .1%;
 	box-shadow: 5px 5px 5px 5px black;
-	margin-top: 4vmax;
-	margin-left: 70vmax;
+	/*margin-top: 4vmax;
+	margin-left: 70vmax;*/
 
 }
 #name{
