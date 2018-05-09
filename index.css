@@ -48,7 +48,7 @@ h1{
 #facepage{
 	background-image: url('bkg.jpg');
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	/*min-height: 600px;*/
 	background-position: cover;
 	/*border: 1px solid white;*/
@@ -75,8 +75,8 @@ h1{
 	opacity: .1%;
 	box-shadow: 5px 5px 5px 5px black;
 
-	margin-top: 4vmax;
-	margin-left: 14vmax;
+	margin-top: 3%;
+	margin-left: 14%;
 	/*padding: 1px auto;*/
 	/*margin: 1px auto;*/
 
@@ -87,9 +87,9 @@ h1{
 	text-shadow:2px 2px black;
 	font-size:4vmax;
 	/*margin: auto;*/
-	/*margin-left: 38vmax;*/
+	margin-left: 1vmax;
 	border-bottom: 3px solid black;
-	border-width: 10px;
+	border-width: 5px;
     /*position: absolute;
 	top: 12vmax;
 	left: 40vmax;*/
@@ -101,8 +101,8 @@ h1{
 	font-family: 'Libre Baskerville', serif;
 	color: white;
 	font-size:3vmax;
-	/*margin-top: 5vmax;
-	margin-left:38vmax;*/
+	
+	margin-left:4vmax;
 	text-shadow: 2px 2px #034F84;
 	/*position: absolute;
 	top:17vmax;
@@ -118,8 +118,9 @@ h1{
 	left: 48vmax;*/
 	/*margin: auto;
 	padding:auto;*/
-	/*margin-left: 41vmax;
-	margin-right: auto;*/
+	margin-left: 7vmax;
+
+	
 }
 #name-wrapper{
 	height: 40vmax;
@@ -133,7 +134,7 @@ h1{
     /*border: 1px solid white;*/
    /*display: inline-block;*/
     margin-left: 1vmax;
-    
+
    
 }
 
@@ -175,8 +176,8 @@ h1{
 }
 #language_icons{
 	margin-left: 20vmax;
-
-	margin-top:7vmax;
+    margin-top:7vmax;
+    margin-right: 0px auto;
 }
 .devicon-html5-plain-wordmark{
 	font-size: 5vmax;
