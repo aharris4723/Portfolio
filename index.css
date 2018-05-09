@@ -175,9 +175,10 @@ h1{
 
 }
 #language_icons{
-	margin-left: 20vmax;
+	/*margin-left: 2vmax;*/
     margin-top:7vmax;
     margin-right: 0px auto;
+    text-align: center;
 }
 .devicon-html5-plain-wordmark{
 	font-size: 5vmax;
@@ -256,6 +257,12 @@ h1{
 }
 #proj-5{
 	background-image: url('theblogging.png');
+	background-position: center;
+	background-size: 100% 100%;
+
+}
+#proj-6{
+	background-image: url('cert.png');
 	background-position: center;
 	background-size: 100% 100%;
 
