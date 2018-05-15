@@ -122,8 +122,8 @@ h1{
 	margin-bottom: 5%;*/
 }
 #main-photo{
-	height: 23vmax;
-	width: 23vmax;
+	height: 25vmax;
+	width: 25vmax;
     display: inline-block;
 	border-radius: 60%;
 	background-image: url('profile.jpg');
